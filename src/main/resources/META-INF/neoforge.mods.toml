@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL-3.0-or-later"
+[[mods]]
+modId="nuclearsciencefix"
+version="1.0.0"
+displayName="Nuclear Science Fix"
+authors="Robin Petrofsky"
+description="Fixes bugs of the mod nuclear science fix"
+
+[[dependencies.autonomousvillagers]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.autonomousvillagers]]
+modId="nuclearscience"
+type="required"
+versionRange="[0.8.6,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="nuclearsciencefix.mixins.json"

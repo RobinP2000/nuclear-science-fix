@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "de.petrofsky.nuclearsciencefix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TileAlarmModuleCableFixMixin",
+    "TileControllerCableFixMixin",
+    "TileControlRodModuleCableFixMixin",
+    "TileMonitorModuleCableFixMixin",
+    "TileSupplyModuleCableFixMixin",
+    "TileThermometerModuleCableFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
