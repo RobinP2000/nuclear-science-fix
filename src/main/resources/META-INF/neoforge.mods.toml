@@ -8,14 +8,14 @@ displayName="Nuclear Science Fix"
 authors="Robin Petrofsky"
 description="Fixes bugs of the mod nuclear science fix"
 
-[[dependencies.autonomousvillagers]]
+[[dependencies.nuclearsciencefix]]
 modId="neoforge"
 type="required"
 versionRange="[21.1,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.autonomousvillagers]]
+[[dependencies.nuclearsciencefix]]
 modId="nuclearscience"
 type="required"
 versionRange="[0.8.6,)"
